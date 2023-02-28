@@ -1,8 +1,7 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: System
 metadata:
-  name: my-domain-overview-component
+  name: my-domain-overview-system
 spec:
   lifecycle: production
   owner: my-team
-  type: service
