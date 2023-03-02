@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: eos-system
+  description: Childcare System
+  labels:
+    domain.ist.com/1: daycare
+    domain.ist.com/2: preschool
+  annotations:
+    domain.ist.com/1: daycare
+    domain.ist.com/2: preschool
+  tags:
+    - domain-daycare
+    - domain-preschool
+  links:
+    - url: https://daycare.domain.backstage.ist.com
+      title: Daycare Domain
+      icon: domain
+      type: domain
+    - url: https://preschool.domain.backstage.ist.com
+      title: Preschool Domain
+      icon: domain
+      type: domain
+spec:
+  owner: ti
